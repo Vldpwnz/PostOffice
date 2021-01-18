@@ -9,13 +9,13 @@ using Persistence;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/parcels")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ParcelsController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public ValuesController(DataContext context)
+        public ParcelsController(DataContext context)
         {
             this._context = context;
         }
